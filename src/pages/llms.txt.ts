@@ -40,7 +40,7 @@ export const GET: APIRoute = async ({ params, request }) => {
     if (items.length > 0) {
       content += `\n## ${prefix.charAt(0).toUpperCase() + prefix.slice(1)}\n`;
       items.forEach((doc) => {
-        content += `- [${doc.data.title}](https://v2.tauri.app/${doc.id})`;
+        content += `- [${doc.data.title}](https://tauri.vip/${doc.id})`;
         // TODO: We need to add a description on every docpage for it to show up here.
         if (doc.data.description && doc.data.description.trim() !== '') {
           content += `: ${doc.data.description}`;
