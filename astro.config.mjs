@@ -328,7 +328,7 @@ export default defineConfig({
           errorOnRelativeLinks: false,
           exclude: ['/plugin/*/#default-permission', '/plugin/*/#permission-table'],
         }),
-        lunaria({ configPath: './lunaria.config.json', route: '/contribute/translate-status' }),
+        //lunaria({ configPath: './lunaria.config.json', route: '/contribute/translate-status' }),
       ],
       title: 'Tauri',
       description: 'The cross-platform app building toolkit',
