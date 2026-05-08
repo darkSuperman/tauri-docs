@@ -67,7 +67,7 @@ const authors = {
   },
 };
 
-const site = 'https://v2.tauri.app';
+const site = 'https://tauri.vip';
 
 // https://astro.build/config
 export default defineConfig({
@@ -351,7 +351,7 @@ export default defineConfig({
         { icon: 'github', label: 'GitHub', href: 'https://github.com/tauri-apps/tauri' },
         { icon: 'discord', label: 'Discord', href: 'https://discord.com/invite/tauri' },
         { icon: 'twitter', label: 'Twitter', href: 'https://twitter.com/TauriApps' },
-        { icon: 'blueSky', label: 'Bluesky', href: 'https://bsky.app/profile/tauri.app' },
+        { icon: 'blueSky', label: 'Bluesky', href: 'https://bsky.app/profile/tauri.vip' },
         { icon: 'mastodon', label: 'Mastodon', href: 'https://fosstodon.org/@TauriApps' },
         { icon: 'rss', label: 'RSS', href: `${site}/rss` },
       ],
@@ -430,7 +430,7 @@ export default defineConfig({
     }),
   ],
   image: {
-    domains: ['tauri.app', 'images.opencollective.com', 'avatars.githubusercontent.com'],
+    domains: ['tauri.vip', 'images.opencollective.com', 'avatars.githubusercontent.com'],
   },
   markdown: {
     shikiConfig: {
