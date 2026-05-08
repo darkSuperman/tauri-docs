@@ -5,6 +5,10 @@
     "branch": "v2",
     "hosting": "github"
   },
+  "exclude": [
+    "zh-cn/help.mdx",
+    "**/_*/**" 
+  ],
   "files": [
     {
       "location": "src/content/docs/**/*.{md,mdx}",
