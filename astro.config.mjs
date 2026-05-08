@@ -237,14 +237,6 @@ export default defineConfig({
                   collapsed: true,
                   autogenerate: { directory: 'about' },
                 },
-                {
-                  label: 'Community Help',
-                  translations: {
-                    'zh-CN': '互助留言板',  
-                  },
-                  link: '/zh-cn/help/',       
-                  icon: 'comment',            
-                },
               ],
             },
             {
