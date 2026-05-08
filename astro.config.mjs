@@ -75,16 +75,6 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     starlight({
-      head: [
-        {
-          tag: 'script',
-          attrs: {
-            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4730219879070419',
-            async: true,
-            crossorigin: 'anonymous',
-          },
-        },
-      ],
       plugins: [
         starlightBlog({
           authors,
@@ -361,6 +351,14 @@ export default defineConfig({
         ThemeSelect: 'src/components/overrides/ThemeSelect.astro',
       },
       head: [
+        {
+          tag:'script',
+          attrs: {
+            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4730219879070419',
+            async: true,
+            crossorigin: 'anonymous',
+          },
+        },
         {
           tag: 'meta',
           attrs: { property: 'og:image', content: site + '/og.png?v=1' },
