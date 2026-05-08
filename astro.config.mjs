@@ -75,6 +75,16 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     starlight({
+      head: [
+        {
+          tag: 'script',
+          attrs: {
+            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4730219879070419',
+            async: true,
+            crossorigin: 'anonymous',
+          },
+        },
+      ],
       plugins: [
         starlightBlog({
           authors,
