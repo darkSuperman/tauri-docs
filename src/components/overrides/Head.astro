@@ -1,0 +1,16 @@
+---
+import DefaultHead from '@astrojs/starlight/components/Head.astro';
+import type { Props } from '@astrojs/starlight/props';
+
+// 自动生成当前页面的规范链接
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!-- 渲染 Starlight 默认标签 -->
+<DefaultHead {...Astro.props} />
+
+<!-- 注入规范链接：解决 Google 提示“重复网页”的关键 -->
+<link rel="canonical" href={canonicalURL} />
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4730219879070419" crossorigin="anonymous"></script>
