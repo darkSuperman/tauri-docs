@@ -2,15 +2,28 @@
 import DefaultHead from '@astrojs/starlight/components/Head.astro';
 import type { Props } from '@astrojs/starlight/props';
 
-// 自动生成当前页面的规范链接
+// 获取当前规范 URL
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// 获取站点根地址（用于拼接图片路径）
+const site = Astro.site;
 ---
 
-<!-- 渲染 Starlight 默认标签 -->
+<!-- 1. 渲染 Starlight 默认标签 -->
 <DefaultHead {...Astro.props} />
 
-<!-- 注入规范链接：解决 Google 提示“重复网页”的关键 -->
+<!-- 2. 注入规范链接（解决 Google 索引问题的核心） -->
 <link rel="canonical" href={canonicalURL} />
 
-
+<!-- 3. 注入 AdSense 广告代码 -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4730219879070419" crossorigin="anonymous"></script>
+
+<!-- 4. 搬迁过来的原有配置：社交媒体分享图 -->
+<meta property="og:image" content={new URL('/og.png?v=1', site)} />
+<meta property="twitter:image" content={new URL('/og.png?v=1', site)} />
+
+<!-- 5. 搬迁过来的原有配置：PWA 离线支持与主题色 -->
+<link rel="manifest" href="/manifest.json" />
+<meta name="theme-color" content="#181818" />
+
+<!-- 6. 搬迁过来的原有配置：导航增强脚本 -->
+<script is:inline src="/navigate.js"></script>
