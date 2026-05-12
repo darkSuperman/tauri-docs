@@ -54,12 +54,12 @@
   ],
   "dashboard": {
     "title": "Tauri Docs Translation Status",
-    "site": "https://tauri.app/contribute/translate-status",
+    "site": "https://tauri.vip/contribute/translate-status",
     "description": "Translation progress tracker for the Tauri Docs site. See how much has been translated in your language and get involved!",
     "favicon": {
       "external": [
         {
-          "link": "https://tauri.app/favicon.svg",
+          "link": "https://tauri.vip/favicon.svg",
           "type": "image/svg+xml"
         }
       ]

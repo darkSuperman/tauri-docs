@@ -33,7 +33,7 @@ body:
     attributes:
       label: Page URL
       description: If applicable, copy-paste the URL to the page you want updated.
-      placeholder: "https://v2.tauri.app/some/specific/page"
+      placeholder: "https://tauri.vip/some/specific/page"
 
   - type: textarea
     id: context

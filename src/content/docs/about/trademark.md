@@ -53,7 +53,7 @@ If you wish to describe your product with reference to the TAURI software, here 
 
 - All versions of the TAURI software you deliver with your product are the exact binaries provided by us, or manufactured by the core software and tooling we provide.
 - Your product is fully compatible with the APIs for the TAURI software.
-- You use the following legend in marketing materials or product descriptions: “TAURI is a trademark of The Tauri Programme within the Commons Conservancy. https://tauri.app/ ”
+- You use the following legend in marketing materials or product descriptions: “TAURI is a trademark of The Tauri Programme within the Commons Conservancy. https://tauri.vip/ ”
 
 ### User Groups
 

@@ -4,7 +4,7 @@
 
 Welcome to the home for Tauri 2.0 documentation - we're excited to have you! ✨
 
-This repo is used to build the docs for Tauri at https://tauri.app.
+This repo is used to build the docs for Tauri at https://tauri.vip.
 
 If you are looking for the old v1 docs, see [here](https://github.com/tauri-apps/tauri-docs/tree/v1).
 
@@ -31,7 +31,7 @@ If you are looking for the old v1 docs, see [here](https://github.com/tauri-apps
   </tbody>
 </table>
 
-For the complete list of sponsors please visit our [website](https://tauri.app#sponsors) and [Open Collective](https://opencollective.com/tauri).
+For the complete list of sponsors please visit our [website](https://tauri.vip#sponsors) and [Open Collective](https://opencollective.com/tauri).
 
 ## License
 
